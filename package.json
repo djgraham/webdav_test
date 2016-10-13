@@ -1,0 +1,15 @@
+{
+  "name": "webdav_test",
+  "version": "1.0.0",
+  "description": "A simple test tool for fetching the root directory from the webdav server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webdav",
+    "webfdav-fs"
+  ],
+  "author": "David Graham",
+  "license": "ISC"
+}
