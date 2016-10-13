@@ -4,12 +4,17 @@
   "description": "A simple test tool for fetching the root directory from the webdav server",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "http://www.github.com/djgraham/webdav_test",
   "keywords": [
     "webdav",
     "webfdav-fs"
   ],
   "author": "David Graham",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webdav-fs": "^0.7.1"
+  }
 }
